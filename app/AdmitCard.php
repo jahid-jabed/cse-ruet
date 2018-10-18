@@ -9,5 +9,6 @@ class AdmitCard extends Model
     public function users()
     {
         return $this->belongsTo('App\User');
+		//One to Many
     }
 }
